@@ -1,0 +1,122 @@
+/*Fonts Used in the Project*/
+
+.font.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-50-bold {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.google-sans-<uniquifier> {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+body {
+  background-color: #FFE6EE;
+}
+
+header span {
+  display: block;
+  text-align: center;
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  background-color: #ff6697;
+  color: #fff;
+  padding: .5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0;
+  background-color: #ff6697;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+	text-decoration: none;
+    font-family: "Redaction 50", serif;
+    font-size: 1.5rem;
+}
+
+header,
+nav,
+nav ul {
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #d0faff;
+  color: #ff6697;
+}
+
+main {
+  max-width: 1000px;
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box
+}
+
+main h1 {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+main h2 {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  background-color: #ff6697;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+main p {
+  font-family: "Google Sans", sans-serif;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: FFE6EE;
+  border-radius: 0.5rem;
+  border-color: #ff6697;
+}
+
+footer {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #ff6697;
+  padding: .02rem;
+}
