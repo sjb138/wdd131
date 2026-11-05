@@ -1,6 +1,4 @@
-/*Fonts Used in the Project*/
-
-.font.redaction-50-regular {
+.redaction-50-regular {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
@@ -12,13 +10,12 @@
   font-style: normal;
 }
 
-.google-sans-<uniquifier> {
+.google-sans {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+  font-variation-settings: "GRAD" 0;
 }
 
 body {
@@ -33,7 +30,7 @@ header span {
   font-size: 3rem;
   background-color: #ff6697;
   color: #fff;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 nav ul {
@@ -54,14 +51,14 @@ nav ul {
 }
 
 nav a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem 1rem;
-    border-radius: 0.5rem;
-	text-decoration: none;
-    font-family: "Redaction 50", serif;
-    font-size: 1.5rem;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-family: "Redaction 50", serif;
+  font-size: 1.5rem;
 }
 
 header,
@@ -76,12 +73,10 @@ nav a:hover {
 }
 
 main {
-  max-width: 1000px;
-  display: block;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 main h1 {
@@ -106,19 +101,19 @@ main p {
 section {
   margin: 2rem auto;
   padding: 1rem;
-  background-color: FFE6EE;
+  background-color: #FFE6EE;
   border-radius: 0.5rem;
-  border-color: #ff6697;
+  border: 1px solid #ff6697;
 }
 
 footer {
   font-family: "Google Sans", sans-serif;
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
   margin-top: 2rem;
   background-color: #ff6697;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 footer p {
