@@ -28,7 +28,7 @@ header span {
   font-family: "Redaction 50", serif;
   font-weight: 700;
   font-size: 3rem;
-  background-color: #ff6697;
+  background-color: #ff3c7a;
   color: #fff;
   padding: 0.5rem;
 }
@@ -39,7 +39,7 @@ nav ul {
   justify-content: center;
   gap: 0.5rem;
   margin: 0;
-  background-color: #ff6697;
+  background-color: #ff3c7a;
   padding: 0;
 }
 
@@ -69,7 +69,7 @@ nav ul {
 
 nav a:hover {
   background-color: #ffffff;
-  color: #ff6697;
+  color: #ff3c7a;
 }
 
 main {
@@ -88,7 +88,7 @@ main h1 {
 main h2 {
   font-family: "Redaction 50", serif;
   font-weight: 700;
-  background-color: #ff6697;
+  background-color: #ff3c7a;
   border-radius: 0.5rem;
   color: #fff;
   padding: 0.5rem;
@@ -103,7 +103,7 @@ section {
   padding: 1rem;
   background-color: #FFE6EE;
   border-radius: 0.5rem;
-  border: 1px solid #ff6697;
+  border: 1px solid #ff3c7a;
 }
 
 footer {
@@ -111,7 +111,7 @@ footer {
   font-weight: 400;
   text-align: center;
   margin-top: 2rem;
-  background-color: #ff6697;
+  background-color: #ff3c7a;
   padding: 0.5rem;
   color: #ffffff;
 }
