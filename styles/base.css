@@ -118,5 +118,10 @@ footer {
   text-align: center;
   margin-top: 2rem;
   background-color: #ff6697;
-  padding: .02rem;
+  padding: .5rem;
+}
+
+footer p {
+  color: #d0faff;
+  margin: 0;
 }
